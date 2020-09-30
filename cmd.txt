@@ -1,0 +1,4 @@
+g++ helloworld.cpp -o helloworld `pkg-config --cflags --libs opencv4` -std=c++17
+cmake .
+make
+make && ./fileName
